@@ -12,6 +12,8 @@ namespace Oefening9
         {
 
             string mijnString = "dit is een mooie string uwussssssss";
+            //Moest eigenlijk gewoon |mijnString.IndexOf('e');|
+
             for (int i = 0; i < mijnString.Length; i++)
             {
                 if (mijnString.Substring(i,1).Equals("e"))
