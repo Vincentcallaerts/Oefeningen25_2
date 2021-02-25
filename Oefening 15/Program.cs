@@ -7,7 +7,7 @@ namespace Oefening_15
     {
         static void Main(string[] args)
         {
-            int getal1;
+            int getal1=5;
             Console.Write("Vul je één getal in negatief of positief: ");
             getal1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"De absolute waarde is: {Math.Abs(getal1)}");
