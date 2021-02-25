@@ -1,5 +1,8 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Oefening_13
 {
@@ -15,9 +18,8 @@ namespace Oefening_13
             Console.Write("Vul je derde getal in: ");
             getal3 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(Math.Min(Math.Max(getal1, getal2), getal3));
+            Console.WriteLine("Het middelste getal is: " + Math.Max(Math.Min(getal1, getal2), Math.Min(Math.Max(getal1, getal2), getal3)));
             Console.ReadLine();
-
         }
     }
 }
