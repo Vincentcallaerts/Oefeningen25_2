@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oefening2
+namespace Oefening7
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string mijnString = "Ken zei: \"Dit is een toffe les!\"";
-            Console.WriteLine(mijnString);
+            string mijnString;
+            Console.Write("Vul een zin in: ");
+            mijnString = Console.ReadLine();
+            Console.WriteLine(mijnString.Replace(" ", "_"));
             Console.ReadLine();
+            
         }
     }
 }

@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Oefening2
+namespace Oefening6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string mijnString = "Ken zei: \"Dit is een toffe les!\"";
-            Console.WriteLine(mijnString);
+            string mijnString = "dit is een mooie string uwussssssss";
+            Console.WriteLine(mijnString.Substring(0,1).ToUpper() + mijnString.Substring(1,mijnString.Length-1));
+            
             Console.ReadLine();
         }
     }

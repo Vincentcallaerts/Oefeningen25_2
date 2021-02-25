@@ -10,8 +10,8 @@ namespace Oefeningen_25_2
     {
         static void Main(string[] args)
         {
-            string mijnstring = @"C:\Users\Field\Documents\Oefening";
-            Console.WriteLine(mijnstring);
+            string mijnString = @"C:\Users\Field\Documents\Oefening";
+            Console.WriteLine(mijnString);
             Console.Read();
         }
     }
